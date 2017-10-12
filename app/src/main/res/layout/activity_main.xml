@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.leodroidcoder.smileratingbar_sample.MainActivity">
+
+    <com.leodroidcoder.SmileRatingBar
+        android:id="@+id/smileRatingView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boardColor="@color/white"
+        app:currentRatingColor="@color/colorPrimary"
+        app:hintImage="@drawable/ic_rating_hint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxRating="5.0"
+        app:maxRatingColor="@color/gray_dark"
+        app:minRating="0"
+        app:ratingStep="1"
+        app:shadowColor="@color/gray_light"
+        app:shadowWidth="20dp"
+        app:smileColor="@color/colorPrimary"
+        app:smileStrokeWidth="6dp"
+        />
+
+</android.support.constraint.ConstraintLayout>

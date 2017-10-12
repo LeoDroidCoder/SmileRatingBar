@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SmileRatingBar">
+        <attr name="minRating" format="float"/>
+        <attr name="maxRating" format="float"/>
+        <attr name="ratingStep" format="float"/>
+        <attr name="defaultRating" format="float"/>
+        <attr name="boardColor" format="color"/>
+        <attr name="smileColor" format="color"/>
+        <attr name="currentRatingColor" format="color"/>
+        <attr name="maxRatingColor" format="color"/>
+        <attr name="shadowColor" format="color"/>
+        <attr name="hintImage" format="integer"/>
+        <attr name="shadowWidth" format="dimension"/>
+        <attr name="smileStrokeWidth" format="dimension"/>
+        <attr name="typeface" format="string"/>
+    </declare-styleable>
+</resources>

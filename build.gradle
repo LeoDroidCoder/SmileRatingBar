@@ -1,0 +1,43 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlin_version = '1.1.4-3'
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0-beta5'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    ext {
+        // android
+        androidApplicationId = "com.leodroidcoder.smileratingbar_sample"
+        androidVersionCode = 1
+        androidVersionName = "1.0"
+        androidBuildToolsVersion = "26.0.1"
+        androidMinSdkVersion = 17
+        androidTargetSdkVersion = 26
+        androidCompileSdkVersion = 26
+        testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
+
+        // libraries
+        supportLibVer = '26.0.1'
+        constrainLayoutVersion = '1.0.2'
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
