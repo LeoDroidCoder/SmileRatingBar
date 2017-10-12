@@ -1,5 +1,4 @@
 # SmileRatingBar
-Smile rating bar
 
 #### Pretty rating bar for android (written with Kotlin)
 
@@ -42,3 +41,5 @@ Set max rating color:
 
 Set hint image (on the right)
 `app:hintImage="@drawable/ic_rating_hint"`
+
+####  Corresponding adjustments can be made dynamically
